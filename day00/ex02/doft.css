@@ -1,0 +1,47 @@
+/*
+** Position stuff
+*/
+
+.topright {
+  position: relative;
+  top: -15px;
+  right: -380px;
+}
+.bottomright {
+  position: relative;
+  top: 80px;
+  right: -380px;
+}
+
+/*
+** Rectangle stuff
+*/
+#banner-rect {
+  border-radius: 20px;
+  background: #909090;
+  padding: 25px;
+  width: 1000px;
+  height: 105px;
+  box-shadow: 12px 12px 5px;
+}
+
+#left-rect {
+  margin-top: 20px;
+  margin-right: 800px;
+  border-radius: 20px;
+  background: #909090;
+  padding: 25px;
+  width: 105px;
+  height: 400px;
+  box-shadow: 12px 12px 5px;
+}
+#right-rect {
+  margin-top: 20px;
+  margin-left: 800px;
+  border-radius: 20px;
+  background: #909090;
+  padding: 25px;
+  width: 105px;
+  height: 400px;
+  box-shadow: 12px 12px 5px;
+}
