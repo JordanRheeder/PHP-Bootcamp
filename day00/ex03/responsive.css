@@ -1,0 +1,20 @@
+
+.aWeight{
+  float:right;
+  font-size: small;
+  font-size: 1vw;
+}
+.element{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2vw;
+}
+.aNum{
+  float:left;
+  font-size: small;
+  font-size: 1vw;
+}
+table, td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
