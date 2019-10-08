@@ -17,17 +17,18 @@
 ** Rectangle stuff
 */
 #banner-rect {
+  margin-left: 420px;
   border-radius: 20px;
   background: #909090;
   padding: 25px;
-  width: 1000px;
-  height: 105px;
+  width: 1620px;
+  height: 110px;
   box-shadow: 12px 12px 5px;
 }
 
 #left-rect {
   margin-top: 20px;
-  margin-right: 800px;
+  margin-left: 450px;
   border-radius: 20px;
   background: #909090;
   padding: 25px;
@@ -36,12 +37,55 @@
   box-shadow: 12px 12px 5px;
 }
 #right-rect {
-  margin-top: 20px;
-  margin-left: 800px;
+  margin-top: -450px;
+  margin-left: 1910px;
   border-radius: 20px;
   background: #909090;
   padding: 25px;
   width: 105px;
   height: 400px;
   box-shadow: 12px 12px 5px;
+}
+
+#center-rect {
+  margin-top: -450px;
+  margin-left: 630px;
+  border-radius: 20px;
+  background: #909090;
+  padding: 25px;
+  width: 1200px;
+  height: 600px;
+  box-shadow: 12px 12px 5px;
+}
+
+#holk-box {
+  background: rgb(168, 251, 150);
+  width: 600px;
+  height: 180px;
+  border-radius: 15px;
+  margin-left: 370px;
+  margin-top: -100px;
+  position: absolute;
+}
+
+#ikea {
+  width: 100px;
+  height: 200px;
+  position: absolute;
+  margin-left: 1050px;
+  margin-top: -290px;
+}
+#apple {
+  width: 135px;
+  height: 100px;
+  position: absolute;
+  margin-left: 1420px;
+  margin-top: -300px;
+}
+
+#woll {
+  width: 140px;
+  height: 80px;
+  background-image: url("resources/brick.jpg");
+  margin-left: -15px;  
 }
