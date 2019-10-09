@@ -2,7 +2,7 @@
 <?php
 function ft_split($input) {
     $ret = explode(" ", $input);
-    sort(($ret));
+    sort($ret);
     return (array_filter($ret));
 }
 ?>

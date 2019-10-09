@@ -1,5 +1,4 @@
 #!/usr/bin/php
-
 <?php
     function oddEven() {
         echo "Enter a number: ";
