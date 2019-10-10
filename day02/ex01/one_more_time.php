@@ -3,28 +3,25 @@
     function error() {
         echo "Wrong Format\n";
         exit;
-    }
+	}
+date_default_timezone_set("Europe/Paris");
     $weekday_FR = array("Lundi"=>"Monday", "Mardi"=>"Tuesday", "Mercredi"=>"Wednesday", "Jeudi"=>"Thursday", "Vendredi"=>"Friday", "Samedi"=>"Saturdaay", "Dimanche"=>"Sunday");
     $month_FR = array("Janvier"=>"January", "Fevrier"=>"February", "Mars"=>"March", "Avril"=>"April", "Mai"=>"May", "Juin"=>"June", "Juillet"=>"July", "Aout"=>"August", "Septembre"=>"September", "Octobre"=>"October", "Novembre"=>"November", "Decembre"=>"December");
     $arr = explode(" ", $argv[1]);
     if (!(ctype_digit($arr[1]) && ctype_digit($arr[3]))) {
         error();
     }
-    echo ("Bro..\n");
     if (!(ctype_alpha($arr[0]) && (ctype_upper($arr[0][0])) && (ctype_alpha($arr[2])))) {
         error();
     }
-    echo ("here\n");
     if ($arr[1] > 31) {
         error();
     }
     if (strlen($arr[1]) > 2 || strlen($arr[1]) < 1) {
         error();
     }
-    echo("test\n");
     if (!preg_match('/^(00|[0-9]|1[0-9]|2[0-3]):([0-9]|[0-5][0-9]):([0-9]|[0-5][0-9])$/', $arr[4]))
         error();
-    echo("gone\n");
     foreach ($weekday_FR as $key=>$day) {
         $counter = 0;
         if (!strcasecmp($key, $arr[0]))
